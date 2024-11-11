@@ -72,7 +72,7 @@ const CardNotice = ({
               className="font-normal border-2 border-dark p-2 rounded-md w-1/2"
             />
           ) : (
-            <p className="font-normal cursor-pointer">{editedDescription}</p>
+            <p className="font-normal">{editedDescription}</p>
           )}
           {/* <p className="font-normal">{description}</p> */}
         </div>
